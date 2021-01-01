@@ -5,6 +5,7 @@ Program ini dibuat dengan konsep _Stack_ dan _Queue_. Konsep _Stack_ atau _LIFO 
 # Cara Penggunaan
 
 - Import terlebih dahulu database dari file yang telah disediakan, yaitu `ig_db.sql`
+- Pada folder `assets/images` tambahkan folder baru dengan nama `posts`
 
 ## Membuat Post
 
