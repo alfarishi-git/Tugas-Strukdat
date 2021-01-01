@@ -162,7 +162,7 @@ $story = query("SELECT * FROM tb_story");
                           }
                         ?>
                         <div class="carousel-item <?= $actives; ?>">
-                          <img class="d-block w-100" src="assets/images/posts/<?= $row["story_image"]; ?>"
+                          <img class="d-block w-100" src="assets/images/posts/<?= $row["image_story"]; ?>"
                             width="100% auto" height="400 auto">
                         </div>
                         <?php $i++; ?>
@@ -203,7 +203,7 @@ $story = query("SELECT * FROM tb_story");
                 </div>
                 <div class="card-body p-0">
                   <div class="embed-responsive embed-responsive-1by1">
-                    <img class="embed-responsive-item" src="assets/images/posts/<?= $row["post_image"]; ?>" />
+                    <img class="embed-responsive-item" src="assets/images/posts/<?= $row["user_image"]; ?>" />
                   </div>
 
                   <div class="d-flex flex-row justify-content-between pl-3 pr-3 pt-3 pb-1">
@@ -255,7 +255,7 @@ $story = query("SELECT * FROM tb_story");
                   <div class="pl-3 pr-3 pb-2">
                     <strong class="d-block">365.354 likes</strong>
                     <strong class="d-block">ramiza27</strong>
-                    <p class="d-block mb-1"><?= $row["caption"];  ?></p>
+                    <p class="d-block mb-1"><?= $row["user_caption"];  ?></p>
                     <button class="btn p-0">
                       <span class="text-muted">View all 2,247 comments</span>
                     </button>
